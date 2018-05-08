@@ -15067,8 +15067,8 @@ webpackJsonp([0], {
                         // Lorenzo
                         //e = "15xscope";
                         if (e == "1xscope") {
-                        	e = "4xscope";
-                        	this.localData.curScope = "4xscope";
+                        	e = "8xscope";
+                        	this.localData.curScope = "8xscope";
                     	}
                         return c.scopeZoomRadius[e]
                     }
