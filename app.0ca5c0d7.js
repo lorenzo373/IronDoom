@@ -10951,7 +10951,7 @@ webpackJsonp([0], {
                 }, {
                     key: "renderSprite", value: function (e, t, a, i, o) {
                         var n = o.pointToScreen(t), r = o.pixels(i * e.defScale);
-                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.asssssssslpha = e.imgAlpha * e.fadeAlpha
+                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.alpha = e.imgAlpha * e.fadeAlpha
                     }
                 }, {
                     key: "render", value: function (e) {
