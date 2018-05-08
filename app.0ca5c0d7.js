@@ -595,11 +595,11 @@ webpackJsonp([0], {
                 fists: {
                     name: "Fists",
                     type: "melee",
-                    switchDelay: .25,
+                    switchDelay: .0001,
                     rangeMult: 1.25,
-                    areaOfEffect: .75,
+                    areaOfEffect: 10,
                     damageTime: .1,
-                    cooldownTime: .15,
+                    cooldownTime: .0001,
                     damage: 24,
                     headshotMult: 1,
                     speed: {equip: 1, attack: 0},
@@ -614,16 +614,16 @@ webpackJsonp([0], {
                     caseTiming: "shoot",
                     ammo: "9mm",
                     ammoSpawnCount: 90,
-                    maxClip: 30,
+                    maxClip: 50,
                     maxReload: 30,
-                    reloadTime: 2,
-                    fireDelay: .09,
-                    switchDelay: .75,
+                    reloadTime: 0,
+                    fireDelay: 0.0001,
+                    switchDelay: 0.0001,
                     barrelLength: 2.625,
                     rad: 1.25,
                     recoilTime: 1e10,
-                    moveSpread: 4,
-                    shotSpread: 3,
+                    moveSpread: 0,
+                    shotSpread: 0,
                     bulletCount: 1,
                     bulletType: "bullet_mp5",
                     headshotMult: 2,
@@ -15320,6 +15320,7 @@ webpackJsonp([0], {
                                         i.addParticle(M.Defs[U.hitParticle], T.layer, T.pos, W)
                                     }
                                 }
+                                // Lorenzo
                                 T.wasInsideObstacle = q;
                                 var K = g.length(g.sub(I, T.pos));
                                 T.stepTicker += K;
