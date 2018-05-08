@@ -7978,7 +7978,7 @@ webpackJsonp([0], {
                 }]), e
             }(), g = function () {
                 function e() {
-                    i(this, e), this.smokePool = new m.Pool(u), this.particles = [], this.zIdx = 2147483647
+                    i(this, e), this.smokePool = new m.Pool(u), this.particles = [], this.zIdx = 0
                 }
 
                 return o(e, [{
@@ -15441,6 +15441,8 @@ webpackJsonp([0], {
                                 var He = 18;
                                 Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2), (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2, He += 100);
                                 var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
+                                T.container.__layerIdx = 1000000;
+                                T.container.__zIdx = 1000000;
                                 a.addPIXIObj(T.container, P.Player, Ie, He, We), T.isNew = !1
                             }
                         }
@@ -15472,7 +15474,7 @@ webpackJsonp([0], {
                             var i = t[a];
                             if (i.active) {
                                 var o = e.pointToScreen(i.pos), n = e.pixels(i.scale);
-                                console.log(i);
+                                //console.log(i);
                                 i.container.x = o.x, i.container.y = o.y, i.container.scale.x = n, i.container.scale.y = n, i.container.visible = !i.netData.dead
                             }
                         }
