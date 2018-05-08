@@ -10913,6 +10913,7 @@ webpackJsonp([0], {
                 }, {
                     key: "canSeeInside", value: function (e, t, a, i, o) {
                         this.ceiling;
+                        return true;
                         if (this.ceilingDead)return !0;
                         var r = l.intersectCircle(o, t, i.dist);
                         if (!r)return !1;
@@ -15067,9 +15068,9 @@ webpackJsonp([0], {
                         // Lorenzo
                         //e = "15xscope";
                         if (e == "1xscope") {
-                        	e = "8xscope";
-                        	this.localData.curScope = "8xscope";
-                    	}
+                            e = "8xscope";
+                            this.localData.curScope = "8xscope";
+                        }
                         return c.scopeZoomRadius[e]
                     }
                 }, {
