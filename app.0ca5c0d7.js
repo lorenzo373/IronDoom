@@ -5471,7 +5471,7 @@ webpackJsonp([0], {
                     scale: .7,
                     alpha: 1,
                     tint: 16777215,
-                    zIdx: 200
+                    zIdx: 10
                 },
                 sound: {bullet: "tree_bullet", punch: "tree_bullet", explode: "tree_break_01", enter: "none"}
             },
@@ -5494,7 +5494,7 @@ webpackJsonp([0], {
                     scale: 1,
                     alpha: 1,
                     tint: 16777215,
-                    zIdx: 230
+                    zIdx: 10
                 },
                 sound: {bullet: "tree_bullet", punch: "tree_bullet", explode: "tree_break_01", enter: "none"}
             },
@@ -10951,7 +10951,7 @@ webpackJsonp([0], {
                 }, {
                     key: "renderSprite", value: function (e, t, a, i, o) {
                         var n = o.pointToScreen(t), r = o.pixels(i * e.defScale);
-                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.alpha = 1;// e.imgAlpha * e.fadeAlpha
+                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.asssssssslpha = e.imgAlpha * e.fadeAlpha
                     }
                 }, {
                     key: "render", value: function (e) {
