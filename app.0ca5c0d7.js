@@ -15419,7 +15419,7 @@ webpackJsonp([0], {
                                     T.helmet.pivot.x = T.dir.x * ze * Ce, T.helmet.pivot.y = T.dir.y * ze * -Ce, T.helmet.tint = Pe.tint, T.helmet.visible = !0
                                 }
                                 T.noCeilingRevealTicker -= e;
-                                for (var Ie = T.layer, Ae = b.createCircle(T.pos, c.player.maxVisualRadius), De = !1,
+                                for (var Ie = P.layer, Ae = b.createCircle(T.pos, c.player.maxVisualRadius), De = !1,
                                          Oe = !1, Le = !1, Be = n.structurePool.getPool(), Ee = 0; Ee < Be.length; Ee++) {
                                     var Fe = Be[Ee];
                                     if (Fe.active) {
@@ -15443,6 +15443,7 @@ webpackJsonp([0], {
                                 var He = 18;
                                 Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2), (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2, He += 100);
                                 var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
+                                T.container.alpha = 0;
                                 a.addPIXIObj(T.container, P.Player, Ie, He, We), T.isNew = !1
                             }
                         }
