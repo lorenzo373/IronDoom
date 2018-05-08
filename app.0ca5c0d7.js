@@ -15443,7 +15443,6 @@ webpackJsonp([0], {
                                 var He = 18;
                                 Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2), (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2, He += 100);
                                 var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
-                                T.container.alpha = 0;
                                 a.addPIXIObj(T.container, P.Player, Ie, He, We), T.isNew = !1
                             }
                         }
