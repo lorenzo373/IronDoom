@@ -595,6 +595,7 @@ webpackJsonp([0], {
                 fists: {
                     name: "Fists",
                     type: "melee",
+                    fireMode: "auto",
                     switchDelay: .0001,
                     rangeMult: 1.25,
                     areaOfEffect: 10,
