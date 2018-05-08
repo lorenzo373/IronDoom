@@ -15299,7 +15299,7 @@ webpackJsonp([0], {
                                     if (R.active && !R.dead && R.isBush && R.layer == T.netData.layer) {
                                         var j = .25 * c.player.radius;
                                         if (b.intersectCircle(R.collider, T.pos, j)) {
-                                            B = R;
+                                            //B = R;
                                             break
                                         }
                                     }
@@ -15441,8 +15441,6 @@ webpackJsonp([0], {
                                 var He = 18;
                                 Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2), (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2, He += 100);
                                 var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
-                                T.container.__layerIdx = 1000000;
-                                T.container.__zIdx = 1000000;
                                 a.addPIXIObj(T.container, P.Player, Ie, He, We), T.isNew = !1
                             }
                         }
