@@ -15472,6 +15472,7 @@ webpackJsonp([0], {
                             var i = t[a];
                             if (i.active) {
                                 var o = e.pointToScreen(i.pos), n = e.pixels(i.scale);
+                                console.log(i);
                                 i.container.x = o.x, i.container.y = o.y, i.container.scale.x = n, i.container.scale.y = n, i.container.visible = !i.netData.dead
                             }
                         }
