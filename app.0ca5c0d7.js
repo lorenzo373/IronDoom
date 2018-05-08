@@ -4698,7 +4698,7 @@ webpackJsonp([0], {
                     scale: .5,
                     alpha: .97,
                     tint: 16777215,
-                    zIdx: 60
+                    zIdx: 10
                 },
                 sound: {bullet: "bush_bullet", punch: "bush_bullet", explode: "bush_break_01", enter: "bush_enter_01"}
             }, e || {})
