@@ -10951,7 +10951,7 @@ webpackJsonp([0], {
                 }, {
                     key: "renderSprite", value: function (e, t, a, i, o) {
                         var n = o.pointToScreen(t), r = o.pixels(i * e.defScale);
-                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.alpha = e.imgAlpha * e.fadeAlpha
+                        e.position.set(n.x, n.y), e.scale.set(r, r), e.rotation = -a, e.alpha = 1;// e.imgAlpha * e.fadeAlpha
                     }
                 }, {
                     key: "render", value: function (e) {
@@ -15419,7 +15419,7 @@ webpackJsonp([0], {
                                     T.helmet.pivot.x = T.dir.x * ze * Ce, T.helmet.pivot.y = T.dir.y * ze * -Ce, T.helmet.tint = Pe.tint, T.helmet.visible = !0
                                 }
                                 T.noCeilingRevealTicker -= e;
-                                for (var Ie = P.layer, Ae = b.createCircle(T.pos, c.player.maxVisualRadius), De = !1,
+                                for (var Ie = T.layer, Ae = b.createCircle(T.pos, c.player.maxVisualRadius), De = !1,
                                          Oe = !1, Le = !1, Be = n.structurePool.getPool(), Ee = 0; Ee < Be.length; Ee++) {
                                     var Fe = Be[Ee];
                                     if (Fe.active) {
