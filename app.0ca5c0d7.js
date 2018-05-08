@@ -15065,7 +15065,11 @@ webpackJsonp([0], {
                     key: "getScopeZoom", value: function () {
                         var e = this.netData.downed || this.localData.scopedIn ? "1xscope" : this.localData.curScope;
                         // Lorenzo
-                        e = "15xscope";
+                        //e = "15xscope";
+                        if (e == "1xscope") {
+                        	e = "4xscope";
+                        	this.localData.curScope = "4xscope";
+                    	}
                         return c.scopeZoomRadius[e]
                     }
                 }, {
