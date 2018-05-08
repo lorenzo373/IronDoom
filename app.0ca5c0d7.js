@@ -2047,7 +2047,7 @@ webpackJsonp([0], {
                 fontWidth: 24
             }, this.timerBackground = o.Sprite.fromImage("img/gui/timer-background.svg"), this.timerBackground.anchor = new o.Point(.5, .5), this.timerBackground.scale = new o.Point(1, 1), this.container.addChild(this.timerBackground), this.innerCircle = new o.Graphics, this.outerCircle = new o.Graphics, this.container.addChild(this.innerCircle, this.outerCircle), this.counterText = new o.Text, this.counterText.anchor = new o.Point(.5, .5);
             var e = {
-                fontFamily: "Roboto Condensed, Comic Sans, sans-serif",
+                fontFamily: "Comic Sans, Comic Sans, sans-serif",
                 fontWeight: "bold",
                 fontSize: this.clientData.fontWidth,
                 align: "center",
@@ -2057,7 +2057,7 @@ webpackJsonp([0], {
             };
             this.counterText.style = e, this.counterText.text = this.clientData.duration.toFixed(1), this.container.addChild(this.counterText), this.labelText = new o.Text, this.labelText.anchor = new o.Point(.5, .5);
             var t = {
-                fontFamily: "Roboto Condensed, Comic Sans, sans-serif",
+                fontFamily: "Comic Sans, Comic Sans, sans-serif",
                 fontWeight: "100",
                 fontSize: this.clientData.fontWidth,
                 align: "center",
