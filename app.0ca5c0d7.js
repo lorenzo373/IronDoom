@@ -2047,7 +2047,7 @@ webpackJsonp([0], {
                 fontWidth: 24
             }, this.timerBackground = o.Sprite.fromImage("img/gui/timer-background.svg"), this.timerBackground.anchor = new o.Point(.5, .5), this.timerBackground.scale = new o.Point(1, 1), this.container.addChild(this.timerBackground), this.innerCircle = new o.Graphics, this.outerCircle = new o.Graphics, this.container.addChild(this.innerCircle, this.outerCircle), this.counterText = new o.Text, this.counterText.anchor = new o.Point(.5, .5);
             var e = {
-                fontFamily: "Roboto Condensed, Arial, sans-serif",
+                fontFamily: "Roboto Condensed, Comic Sans, sans-serif",
                 fontWeight: "bold",
                 fontSize: this.clientData.fontWidth,
                 align: "center",
@@ -2057,7 +2057,7 @@ webpackJsonp([0], {
             };
             this.counterText.style = e, this.counterText.text = this.clientData.duration.toFixed(1), this.container.addChild(this.counterText), this.labelText = new o.Text, this.labelText.anchor = new o.Point(.5, .5);
             var t = {
-                fontFamily: "Roboto Condensed, Arial, sans-serif",
+                fontFamily: "Roboto Condensed, Comic Sans, sans-serif",
                 fontWeight: "100",
                 fontSize: this.clientData.fontWidth,
                 align: "center",
@@ -2867,7 +2867,7 @@ webpackJsonp([0], {
                             t.addChild(S);
                             for (var L = new s.Container, B = 0; B < i.length; B++) {
                                 var E = i[B], F = new s.TextStyle({
-                                    fontFamily: "Arial",
+                                    fontFamily: "Comic Sans",
                                     fontSize: h.pixelRatio > 1 ? 20 : 22,
                                     fontWeight: "bold",
                                     fill: ["#ffffff"],
@@ -13084,7 +13084,7 @@ webpackJsonp([0], {
         "use strict";
         function i() {
             var e = {
-                fontFamily: "Arial",
+                fontFamily: "Comic Sans",
                 fontWeight: "bold",
                 fontSize: d.pixelRatio > 1 ? 30 : 24,
                 align: "center",
@@ -14976,7 +14976,7 @@ webpackJsonp([0], {
 
         function n() {
             var e = {
-                fontFamily: "Arial",
+                fontFamily: "Comic Sans",
                 fontWeight: "bold",
                 fontSize: w.pixelRatio > 1 ? 30 : 22,
                 align: "center",
@@ -15487,7 +15487,7 @@ webpackJsonp([0], {
                     }
                 }, {
                     key: "setPlayerInfo", value: function (e) {
-                        var t = e.name, a = ((new Date).getTime(), _.truncateString(t, "bold 16px arial", 180));
+                        var t = e.name, a = ((new Date).getTime(), _.truncateString(t, "bold 16px Comic Sans", 180));
                         this.playerInfo[e.id] = {name: t, nameUnEntity: _.unEntity(t), nameKillFeed: a, teamId: e.teamId}
                     }
                 }, {
