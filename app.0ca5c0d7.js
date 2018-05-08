@@ -15280,7 +15280,7 @@ webpackJsonp([0], {
                         for (var w = {playerBarn: this, map: n, audioManager: l, particleBarn: i},
                                  _ = this.playerPool.getPool(), S = 0; S < _.length; S++) {
                             var T = _[S];
-                            //if (T.active) {
+                            if (T.active) {
                                 var z = T.__id == t;
                                 if (z) {
                                     var C = this.playerPool.getPool()[0];
@@ -15442,7 +15442,7 @@ webpackJsonp([0], {
                                 Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2), (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2, He += 100);
                                 var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
                                 a.addPIXIObj(T.container, P.Player, Ie, He, We), T.isNew = !1
-                            //}
+                            }
                         }
                         for (var Ke = this.getPlayerInfo(t).teamId, Xe = this.getTeamInfo(Ke),
                                  Ze = 0; Ze < Xe.playerIds.length; Ze++) {
@@ -15470,11 +15470,11 @@ webpackJsonp([0], {
                     key: "render", value: function (e) {
                         for (var t = this.playerPool.getPool(), a = 0; a < t.length; a++) {
                             var i = t[a];
-                            //if (i.active) {
+                            if (i.active) {
                                 var o = e.pointToScreen(i.pos), n = e.pixels(i.scale);
                                 //console.log(i);
                                 i.container.x = o.x, i.container.y = o.y, i.container.scale.x = n, i.container.scale.y = n, i.container.visible = !i.netData.dead
-                            //}
+                            }
                         }
                     }
                 }, {
